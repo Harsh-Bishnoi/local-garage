@@ -16,13 +16,13 @@
     <header class="px-3">
         <div class="max-w-[1024px] mx-auto">
             <div class="flex justify-between items-center h-[60px] sm:h-[80px] w-full">
-                <a href="/" class="flex items-center transition-all duration-200 ease-linear hover:text-light-red">
+                <a href="#" class="flex items-center transition-all group duration-200 ease-linear">
                     <img class="size-[30px] sm:size-10" src="./assets/images/svg/garage-door.svg" alt="garage-door">
                     <span
-                        class="light-black text-light-black text-sm sm:text-base ml-1.5 sm:ml-2.5 leading-[35px]">Local
+                        class="light-black text-light-black text-sm sm:text-base ml-1.5 sm:ml-2.5 leading-[35px] group-hover:text-light-red transition-all duration-200 ease-linear">Local
                         <strong>Garage Service </strong> Pros
-                        <span class="border max-md:hidden ml-2.5 mr-2.5 border-[hsla(0, 0%, 50%, .25)]"></span><span
-                            class="max-md:hidden">Ambala, HR</span>
+                        <span class="border max-md:hidden ml-2.5 mr-2.5"></span><span class="max-md:hidden">Ambala,
+                            HR</span>
                     </span>
                 </a>
                 <div class="flex items-center light-black">
@@ -614,7 +614,7 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="bg-black py-10">
+    <footer class="bg-black py-10 max-[480px]:pb-[110px]">
         <div class="p-5">
             <div class="max-w-[1024px] mx-auto md:flex md:justify-between">
                 <div>
@@ -655,6 +655,19 @@
                     </ul>
                 </div>
             </div>
+        </div>
+        <div class="p-2.5 bg-white fixed bottom-0 h-fit w-full min-[480px]:hidden">
+            <div class="mx-auto flex justify-center">
+                <a class="bg-red py-[11.5px] whitespace-nowrap px-[82px] flex items-center" href="tel:8778360344">
+                    <span class="font-medium text-[22px] leading-[30.25px] text-white">Get Help Now</span>
+                    <span class="bg-white size-[24px] rounded-full flex justify-center items-center ml-3"><img
+                            class="size-[14px]" src="./assets/images/svg/right-arrow.svg" alt="right-arrow"></span>
+                </a>
+            </div>
+            <p class="text-sm mt-5 font-light tracking-[0.7px] leading-[28px] text-center text-dark-black opacity-75">
+                Call us 24/7 at <a
+                    class="font-bold opacity-100 hover:text-light-red transition-all duration-200 ease-linear"
+                    href="tel:8778360344">(877) 836-0344</a></p>
         </div>
     </footer>
 </body>
