@@ -10,7 +10,7 @@ tailwind.config = {
                 "light-green": "#F1F5F0",
                 "light-gray": "#F3F4F6",
                 "blue": "#2289e1",
-                "dark-black":"#374151"
+                "dark-black": "#374151"
             },
         },
     },
